@@ -1,0 +1,254 @@
+/*
+ * This is a general style for the website
+ */
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.clear {
+    clear: both;
+}
+
+/**************************************************/
+/*
+ * logo and header styles
+ */
+
+.logo img {
+    border-right: 1px solid #DCE0E0;
+}
+header {
+    background: #ffffff;
+}
+
+.main-pic img {
+    width: 100%;
+}
+/*************************************************/
+
+/*
+ * info styles
+ */
+
+.info {
+    background-color: #ffffff;
+    padding: 25px;
+    overflow: auto;
+    border-bottom: 1px solid #DCE0E0;
+}
+
+/*
+ * info - owner-details styles
+ */
+.owner-details {
+    text-align: center;
+    color: #909597;
+    font-size: 0.875rem;
+}
+
+.owner-details img {
+    border-radius: 50%;
+    width: 90px;
+}
+.owner-details h3 {
+    margin: 0.4rem;
+}
+.owner {
+    font-weight: normal;
+}
+
+.name {
+    font-weight: bold;
+}
+
+/*
+ * info - pet-details style
+ */
+.pet-details {
+    text-align: center;
+}
+
+.pet-name h3,h5{
+    color: #666A6C;
+    font-weight: normal;
+    margin: 0.8rem;
+}
+.pet-name h3 {
+    font-size: 1.7rem;
+}
+.pet-name h5 {
+    font-size: 1rem;
+}
+.pet-icons {
+    color: #909597;
+    font-size: 0.875rem;
+    overflow: auto;
+    padding: 0 50px 0 50px;
+}
+
+.icon {
+    float: left;
+    width: 33.3%;
+}
+.icon img {
+    width: 100px;
+    height: 40px;
+
+}
+.icon h3 {
+    font-size: 0.8rem;
+}
+/*
+ * info - booking styles
+ */
+.booking {
+    text-align: center;
+}
+
+.booking h1 {
+    color: #666A6C;
+    font-size: 2rem;
+}
+
+.booking span {
+    font-size: 1.3rem;
+}
+
+.booking a {
+    background-color: #E34B58;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 3px;
+    display: inline-block;
+    width: 300px;
+
+}
+
+/*
+ * about styles
+ */
+.about {
+    color: #565A5C;
+    line-height: 22px;
+    background-color: #F5F5F5;
+    padding: 25px;
+    border-bottom: 1px solid #DCE0E0;
+
+}
+.about h2 {
+    text-align: center;
+}
+.about a {
+    color: #FF595F;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+
+/*
+ * care styles
+ */
+.care {
+    color: #565A5C;
+    background-color: #F5F5F5;
+    padding: 25px;
+    border-bottom: 1px solid #DCE0E0;
+    overflow: auto;
+
+}
+.care time{
+    font-weight: bold;
+}
+
+/*
+ * games styles
+ */
+.games {
+    color: #565A5C;
+    background-color: #F5F5F5;
+    padding: 25px;
+    border-bottom: 1px solid #DCE0E0;
+    overflow: auto;
+
+}
+
+/*
+ * photos styles
+ */
+.photos{
+    background-color: #F5F5F5;
+    padding: 25px;
+    border-bottom: 1px solid #DCE0E0;
+}
+.photos img {
+    width: 300px;
+}
+
+/*
+ * footer styles
+ */
+.footer {
+    background-color: #F5F5F5;
+    padding: 25px;
+    text-align: center;
+    color: #666A6C;
+}
+
+/*
+ * media queries for desktop version
+ */
+
+@media only screen and (min-width: 1060px) {
+    .container {
+        width: 1040px;
+        margin: 0 auto;
+    }
+    .profile {
+        float: left;
+        width: 700px;
+        border-right: 1px solid #DCE0E0;
+    }
+    .booking {
+        float: left;
+        width: 300px;
+        padding: 0 0 0 50px;
+    }
+    .pet-details {
+        float: left;
+        width: 80%;
+    }
+
+    .owner-details {
+        float: left;
+        width: 20%;
+        padding: 20px ;
+    }
+    .booking .button {
+        width: 272px;
+    }
+    .info {
+        padding: 30px 0 30px 0;
+    }
+
+    .care-details {
+        float: left;
+        width: 50%;
+    }
+    .checking {
+        float: right;
+        width: 50%;
+
+    }
+
+}
